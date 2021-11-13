@@ -16,4 +16,13 @@ public class UserController {
     public String get(){
         return "eure";
     }
+
+    @GetMapping("/is_empty()")
+    public boolean isEmpty(){
+        return false;
+    }
+
+    public boolean find(){
+        return false;
+    }
 }
